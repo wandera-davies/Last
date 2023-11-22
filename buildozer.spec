@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Trendy Foot Wear
+title = TrendyApp
 
 # (str) Package name
-package.name = TrendyFootWear
+package.name = trendyapp
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.TrendyFootWear
+package.domain = org.test.trendyapp
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.0.0,https://github.com/kivymd/KivyMD/archive/master.zip,pygments,sdl2_ttf==2.0.15,pillow 
+requirements = python3,kivy, kivymd
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -82,7 +82,7 @@ fullscreen = 0
 # red, blue, green, black, white, gray, cyan, magenta, yellow, lightgray,
 # darkgray, grey, lightgrey, darkgrey, aqua, fuchsia, lime, maroon, navy,
 # olive, purple, silver, teal.
-android.presplash_color = #FFFFFF
+#android.presplash_color = #FFFFFF
 
 # (list) Permissions
 #android.permissions = INTERNET
@@ -123,7 +123,7 @@ android.presplash_color = #FFFFFF
 # agreements. This is intended for automation only. If set to False,
 # the default, you will be shown the license when first running
 # buildozer.
- android.accept_sdk_license = True
+# android.accept_sdk_license = False
 
 # (str) Android entry point, default is ok for Kivy-based app
 #android.entrypoint = org.renpy.android.PythonActivity
